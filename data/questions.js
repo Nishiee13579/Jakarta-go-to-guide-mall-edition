@@ -1,0 +1,98 @@
+export const questions = [
+  {
+    id: "q1",
+    label: "Pertanyaan 1 dari 8",
+    title: "Siapa yang mau pergi hari ini?",
+    multi: false,
+    options: [
+      { key: "A", text: "Sendirian", sub: "Me-Time / Nugas" },
+      { key: "B", text: "Berdua", sub: "Pasangan / Date" },
+      { key: "C", text: "Teman / Sahabat", sub: "Nongkrong rame-rame" },
+      { key: "D", text: "Keluarga", sub: "Bawa ortu / anak kecil" },
+    ],
+  },
+  {
+    id: "q2",
+    label: "Pertanyaan 2 dari 8",
+    title: "Mau main ke area mana?",
+    hint: "Boleh pilih lebih dari 1 jika fleksibel",
+    multi: true,
+    options: [
+      { key: "A", text: "Jakarta Selatan" },
+      { key: "B", text: "Jakarta Pusat" },
+      { key: "C", text: "Jakarta Barat" },
+      { key: "D", text: "Jakarta Utara" },
+      { key: "E", text: "Bodetabek", sub: "Depok / Bogor / Tangerang / Bekasi" },
+    ],
+  },
+  {
+    id: "q3",
+    label: "Pertanyaan 3 dari 8",
+    title: "Gimana kondisi cuaca hari ini?",
+    multi: false,
+    options: [
+      { key: "A", text: "Cerah / Terik", sub: "Langit aman, oke banget keluar" },
+      { key: "B", text: "Mendung / Hujan", sub: "Sering hujan belakangan ini" },
+    ],
+  },
+  {
+    id: "q4",
+    label: "Pertanyaan 4 dari 8",
+    title: "Kamu ke sana naik apa?",
+    multi: false,
+    options: [
+      { key: "A", text: "Transportasi Umum", sub: "KRL / MRT / LRT / TransJakarta" },
+      { key: "B", text: "Kendaraan Pribadi", sub: "Mobil / Motor" },
+      { key: "C", text: "Ojek / Taksi Online", sub: "Grab / Gojek / Blue Bird" },
+    ],
+  },
+  {
+    id: "q5",
+    label: "Pertanyaan 5 dari 8",
+    title: "Jam berapa rencana sampai di lokasi?",
+    multi: false,
+    options: [
+      { key: "A", text: "Pagi – Siang", sub: "Santai, cari tempat adem" },
+      { key: "B", text: "Sore – Malam", sub: "Cari sunset, city light, suasana malam" },
+    ],
+  },
+  {
+    id: "q6",
+    label: "Pertanyaan 6 dari 8",
+    title: "Agenda utama hari ini?",
+    hint: "Maksimal pilih 2",
+    multi: true,
+    max: 2,
+    options: [
+      { key: "A", text: "Kulineran", sub: "Makan besar / food tour" },
+      { key: "B", text: "Nongkrong", sub: "Ngopi santai / jajan dessert" },
+      { key: "C", text: "Hunting Foto", sub: "Spot estetik & instagramable" },
+      { key: "D", text: "Belanja", sub: "Shopping baju & kebutuhan" },
+      { key: "E", text: "Hiburan", sub: "Bioskop, arcade, bowling" },
+      { key: "F", text: "Produktif", sub: "Nugas / WFC dengan tenang" },
+    ],
+  },
+  {
+    id: "q7",
+    label: "Pertanyaan 7 dari 8",
+    title: "Lagi pengen kuliner yang seperti apa?",
+    multi: false,
+    options: [
+      { key: "A", text: "Mewah / Fancy", sub: "Fine dining, cafe premium, pastry hits" },
+      { key: "B", text: "Populer & Viral", sub: "Resto mall terkenal, hits sosmed, AYCE" },
+      { key: "C", text: "Santai / Kaki Lima", sub: "Street food, murah meriah, porsi kenyang" },
+      { key: "D", text: "Spesifik", sub: "Japanese / Korean / Non-Halal friendly" },
+    ],
+  },
+  {
+    id: "q8",
+    label: "Pertanyaan 8 dari 8",
+    title: "Budget per orang hari ini?",
+    multi: false,
+    options: [
+      { key: "A", text: "Mode Hemat", sub: "Di bawah Rp50.000" },
+      { key: "B", text: "Standar", sub: "Rp50.000 – Rp150.000" },
+      { key: "C", text: "Premium / Sultan", sub: "Rp150.000++ siap keluar lebih" },
+    ],
+  },
+]
