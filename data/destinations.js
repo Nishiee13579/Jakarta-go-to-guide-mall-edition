@@ -14,6 +14,8 @@ export const destinations = [
     companion: ["A", "B", "C", "D"],
     location: "Depok",
     tags: ["KRL", "Indoor", "Kuliner Populer"],
+    imageUrl: "https://margocity.com/storage/upload/1So8QVnoa2aWbuLjTA8MP5sWFbOwqcmIjm9oqCo8.jpg",
+
   },
   {
     id: 2,
@@ -30,6 +32,7 @@ export const destinations = [
     companion: ["A", "B", "C", "D"],
     location: "Jakarta Selatan",
     tags: ["KRL", "Indoor", "Kuliner Jepang"],
+    imageUrl: "https://aeonmall-tanjungbarat.com/images/content/mallinfo.jpg",
   },
   {
     id: 3,
@@ -46,6 +49,7 @@ export const destinations = [
     companion: ["B", "C", "D"],
     location: "Jakarta Pusat",
     tags: ["MRT", "KRL", "Indoor", "Resto Viral"],
+    imageUrl: "https://www.anggara.co.id/wp-content/uploads/2023/10/GI-1-scaled.jpg",
   },
   {
     id: 4,
@@ -62,6 +66,7 @@ export const destinations = [
     companion: ["A", "B", "C"],
     location: "Jakarta Pusat",
     tags: ["MRT", "Busway", "Semi-Outdoor", "Kuliner Lokal", "Estetik"],
+    imageUrl: "https://nibble-images.b-cdn.net/nibble/original_images/mall-pertama-di-indonesia-00.jpg?class=large",
   },
   {
     id: 5,
@@ -78,6 +83,8 @@ export const destinations = [
     companion: ["B", "C", "D"],
     location: "Jakarta Selatan",
     tags: ["MRT", "Indoor", "Resto Mewah"],
+    imageUrl: "https://goadmin.pt-asdi.com/lib/images/project/senayan.jpg",
+  },
   },
   {
     id: 6,
@@ -94,6 +101,7 @@ export const destinations = [
     companion: ["A", "B", "C"],
     location: "Jakarta Selatan",
     tags: ["MRT", "Semi-Outdoor", "Cafe Mewah", "Estetik"],
+    imageUrl: "https://manual.co.id/wp-content/uploads/2021/01/ashta_district8-17-980x719.jpg",
   },
   {
     id: 7,
@@ -110,6 +118,7 @@ export const destinations = [
     companion: ["A", "B"],
     location: "Jakarta Selatan",
     tags: ["MRT", "Indoor", "Fine Dining", "Eksklusif"],
+    imageUrl: "https://arthagraha.net//img/home/17411464410.jpg",
   },
   {
     id: 8,
@@ -126,6 +135,7 @@ export const destinations = [
     companion: ["C", "D"],
     location: "Jakarta Selatan",
     tags: ["Busway", "Indoor", "Resto Keluarga"],
+    imageUrl: "https://www.pakuwonjati.com/upload/2020/05/5eb03197ea32d-pkw-mall-com-10gc-gallery0.jpg",
   },
   {
     id: 9,
@@ -142,6 +152,7 @@ export const destinations = [
     companion: ["B", "C", "D"],
     location: "Jakarta Barat",
     tags: ["Busway", "Indoor", "Park", "Resto Viral"],
+    imageUrl: "https://i.ytimg.com/vi/oB2dx5gwgeA/hq720.jpg",
   },
   {
     id: 10,
@@ -158,6 +169,7 @@ export const destinations = [
     companion: ["A", "B", "C"],
     location: "Jakarta Selatan",
     tags: ["Ojol", "Indoor", "Cafe & Bar"],
+    imageUrl: "https://cove-blog-id.sgp1.cdn.digitaloceanspaces.com/cove-blog-id/2022/03/lippo-mall-kemang.webp",
   },
   {
     id: 11,
@@ -174,6 +186,7 @@ export const destinations = [
     companion: ["B", "C", "D"],
     location: "Jakarta Selatan",
     tags: ["Busway", "Indoor", "Resto Keluarga"],
+    imageUrl: "https://foto.kontan.co.id/qET-gtSmkIiOQT5Szy46w66Mk7w=/smart/filters:format(webp)/2020/06/17/120393645.jpg",
   },
   {
     id: 12,
@@ -190,6 +203,7 @@ export const destinations = [
     companion: ["A", "B", "C"],
     location: "Jakarta Pusat",
     tags: ["MRT", "Outdoor", "Danau", "Estetik"],
+    imageUrl: "https://senayanpark.com/assets/articles/discover_A.jpg",
   },
   {
     id: 13,
@@ -206,6 +220,7 @@ export const destinations = [
     companion: ["B", "C", "D"],
     location: "Jakarta Selatan",
     tags: ["KRL", "Indoor", "Resto Viral", "Bioskop"],
+    imageUrl: "https://www.pakuwon.com/files/img/upload/property/Prudential_Center_Kota_Kasablanka.jpg",
   },
   {
     id: 14,
@@ -222,6 +237,7 @@ export const destinations = [
     companion: ["A", "B", "C"],
     location: "Jakarta Selatan",
     tags: ["LRT", "Indoor", "Kuliner Korea"],
+    imageUrl: "https://www.jsluwansa.com/wp-content/uploads/sites/76/2025/04/Lotte-Mall-02.jpg",
   },
   {
     id: 15,
@@ -238,6 +254,7 @@ export const destinations = [
     companion: ["A", "B", "C"],
     location: "Jakarta Selatan",
     tags: ["MRT", "Street", "Kaki Lima", "Jepang", "Estetik"],
+    imageUrl: "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,f_auto,q_auto:best,w_640/v1634025439/01kdd2gf87t6f7h3zct7mws9e6.jpg",
   },
   {
     id: 16,
@@ -255,6 +272,7 @@ export const destinations = [
     location: "Jakarta Selatan",
     tags: ["LRT", "Full Outdoor", "Cafe Mewah", "Estetik"],
     outdoorOnly: true,
+    imageUrl: "https://pdw.co.id/uploads/works/media/Ur1uO44BP9WhApBpCXp9.jpeg",
   },
   {
     id: 17,
@@ -272,6 +290,7 @@ export const destinations = [
     location: "Bogor",
     tags: ["Mobil Pribadi", "Full Outdoor", "Cafe Estetik"],
     outdoorOnly: true,
+    imageUrl: "https://awsimages.detik.net.id/community/media/visual/2021/05/20/taman-fathan-hambalang_169.jpeg?w=620",
   },
   {
     id: 18,
@@ -289,6 +308,7 @@ export const destinations = [
     location: "Jakarta Utara",
     tags: ["Mobil", "Outdoor", "Kuliner Viral"],
     outdoorOnly: true,
+    imageUrl: "https://flying-pikachu.com/id/img/event/jakarta/pikavenue/evt_jakarta_02_kv.png",
   },
   {
     id: 19,
@@ -305,5 +325,6 @@ export const destinations = [
     companion: ["B", "C", "D"],
     location: "Jakarta Utara",
     tags: ["LRT", "Indoor", "Kuliner Lengkap"],
+    imageUrl: "https://awsimages.detik.net.id/visual/2025/01/07/mall-kelapa-gading_169.jpeg?w=650&q=80",
   },
 ]
