@@ -85,7 +85,6 @@ export const destinations = [
     tags: ["MRT", "Indoor", "Resto Mewah"],
     imageUrl: "https://goadmin.pt-asdi.com/lib/images/project/senayan.jpg",
   },
-  },
   {
     id: 6,
     name: "Ashta District 8",
